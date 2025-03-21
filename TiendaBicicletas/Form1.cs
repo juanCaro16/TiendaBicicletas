@@ -16,7 +16,8 @@ namespace TiendaBicicletas
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            VerProductos verProductos = new VerProductos();
+            verProductos.Show();
         }
 
         private void Form1_Load(object sender, EventArgs e)
